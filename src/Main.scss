@@ -1,0 +1,40 @@
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  .booking-container {
+    width: 40vw;
+    height: auto;
+    border: 1px solid lightgray;
+    .rooms-container {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      padding: 10px;
+      border-bottom: 1px solid lightgray;
+      margin: 10px;
+      .rooms-title {
+        color: blue;
+      }
+      .rooms-actions {
+        display: flex;
+      }
+      .rooms-value {
+        margin: 0 10px;
+        display: flex;
+        align-items: center;
+        color: gray;
+      }
+    }
+    .error-container {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      padding-bottom: 10px;
+      .error-text {
+        color: red;
+      }
+    }
+  }
+}
